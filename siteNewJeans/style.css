@@ -1,0 +1,65 @@
+@font-face {
+    font-family: newjeans font;
+    src: url(./Village-wLn3.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0e0e0e;
+}
+
+h1 {
+    font-size: 5rem;
+    gap: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: newjeans font;
+}
+/*título*/
+h1 .pink {
+    color:rgb(255, 136, 176);
+    text-shadow: 0 1px 10px rgba(255, 2, 149, 0.795);
+}
+h1 .blue {
+    color:rgb(135, 166, 250);
+    text-shadow: 0 1px 10px rgba(2, 103, 255, 0.795);
+}
+h1 .purple {
+    color:rgb(127, 78, 243);
+    text-shadow: 0 1px 10px rgba(133, 2, 255, 0.795);
+}
+h1 .orange {
+    color:rgb(243, 151, 123);
+    text-shadow: 0 1px 10px rgba(255, 82, 2, 0.795);
+}
+h1 .red {
+    color:rgb(248, 40, 40);
+    text-shadow: 0 1px 10px rgba(255, 0, 0, 0.795);
+}
+.galeria {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    gap: 0.1px;
+}
+
+.galeria div {
+    flex: 1; 
+    background-size: cover;
+    background-position: top center;
+    transition: all 0.5s cubic-bezier(cubic-bezier(0,.99,1,.01));
+}
+
+.galeria div:hover {
+    flex: 4;
+}
+
+.galeria:hover div:not(:hover) {
+    filter: opacity(50%);
+
+}

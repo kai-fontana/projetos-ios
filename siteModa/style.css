@@ -1,0 +1,164 @@
+@import url('https://fonts.cdnfonts.com/css/vanila');
+@import url('https://fonts.cdnfonts.com/css/or-melted-two');
+@import url('https://fonts.cdnfonts.com/css/encode-sans-sc');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@media (max-width: 480px) {
+    .header {
+        margin: 12px;
+    }
+
+    .header h1 {
+        font-family: 'thick or melted two', sans-serif;
+        width: 50%;
+    }
+
+
+    .box p {
+        flex: 1 1 100%;
+    }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #667ee9;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header h1 {
+    font-size: 80px;
+    margin: 10px;
+    -webkit-text-stroke: 0.1px rgb(70, 89, 199);
+    margin-bottom: 10px;
+    font-family: 'thick or melted', sans-serif;
+    text-shadow: 0 0 10px rgb(51, 2, 226);
+                                                
+}
+
+.header p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.box  {
+    background-color: #667ee9;
+    box-shadow: 0px 0px 8px blue;
+    border: dashed 2px #fff7f7;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box h2, .box1 h2, .box2 h2{
+    font-size: 1.9rem;
+    font-family: 'VANILA', sans-serif;
+                                                
+}
+
+.box p, .box1 p, .box2 p {
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+}
+
+.box1 {
+    background-color: #e966ae;
+    box-shadow: 0px 0px 8px rgb(255, 0, 255);
+    border: dashed 2px #fff7f7;
+    padding: 20px;
+    margin: 10px;
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box2 {
+    background-color: #5bb2ec;
+    box-shadow: 0px 0px 8px rgb(0, 132, 255);
+    border: dashed 2px #fff7f7;
+    padding: 20px;
+    margin: 10px;
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao button a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+button {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(170, 129, 236);
+    border-radius: 20px;
+    border: 1px solid rgba(129, 31, 221, 0.685);
+    padding: 20px;
+}
+.footer {
+    background-color: #667ee9;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    bottom: 0;
+    width: 100%;
+}
+
+.parallax1 {
+    background-image: url('https://d21buns5ku92am.cloudfront.net/69676/images/540299-L1009659-80e509-large-1717010037.jpg');
+    background-size: cover;
+}
+.parallax2 {
+    background-image: url('https://y2k-wave.com/cdn/shop/files/Women_v4_500x.png?v=1708807008');
+    background-attachment: fixed;
+}
+.parallax3 {
+    background-image: url('https://y2k-wave.com/cdn/shop/files/Men_v1_500x.png?v=1708806993');
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+

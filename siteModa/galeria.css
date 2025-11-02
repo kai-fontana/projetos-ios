@@ -1,0 +1,46 @@
+/* CSS Galeria */
+
+@import url('https://fonts.cdnfonts.com/css/or-melted-two');
+
+@media (max-width: 480px) {
+    #image {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #galeria h1 {
+        font-family: 'thick or melted two', sans-serif;
+        width: 20px;
+    }
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#galeria {
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#galeria h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'thick or melted';
+    font-size: 80px;
+    -webkit-text-stroke: 0.3px blueviolet;
+}
+
+#galeria image {
+    display: flex;
+
+    
+}
+#galeria img1, img2, img3, img4, img5 {
+    width: 40px;
+    height: 0px;
+}

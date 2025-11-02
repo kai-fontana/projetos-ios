@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/rossans');
+@import url('https://fonts.cdnfonts.com/css/liquid-night');
+@import url('https://fonts.cdnfonts.com/css/reservoir-grunge');
+@import url('https://fonts.cdnfonts.com/css/clay');
+
+@font-face {
+    font-family: city mango;
+    src: url(./City\ Mango\ -\ \(Demo\)\ hanscostudio.com.ttf);
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fafaff;
+    font-size: 1.1rem;
+}
+
+header {
+    background: url('https://i.pinimg.com/originals/83/f1/de/83f1de60f7eae7c2815a654ad47ab004.gif');
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+    text-align: center;
+    text-shadow: 0 0 10px #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.884);
+    box-shadow: 0 0 10px #00eeffc9;
+}
+
+header h1 {
+    margin: 0;
+    -webkit-text-stroke: 0.5px #6b6df3dc;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+nav ul {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    font-family: 'ReservoirGrunge', sans-serif;
+    -webkit-text-stroke: 0.5px #0bb3c9;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li img {
+    display:flexbox;
+    width: 90px;
+    height: 60px;
+    left: 50px;
+    top: 50px;
+    bottom: 0px;
+}
+
+main {
+    padding: 50px;
+    width: 75%;
+    margin: auto;
+}
+
+h2 {
+    color: #8f20f7;
+    font-family: city mango;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+h3, thead {
+    color: #ee36f5;
+    font-family: 'Clay', sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid rgba(18, 9, 148, 0.493);
+    box-shadow: 0 0 10px #6ca7ff;
+}
+
+table, th, td {
+    border: 2px solid #292929;
+    padding: 10px;
+    text-align: left;
+}
+
+button {
+    border-radius: 20px;
+}
+figure {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+    box-shadow: 0 0 10px #6ca7ff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form label {
+    margin-top: 10px;
+}
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid rgba(17, 4, 196, 0.493);
+    box-shadow: 0 0 20px #6ca7ff
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background: url('https://i.pinimg.com/originals/9a/6e/96/9a6e96cdea424cab551eafcddb254765.gif') no-repeat;
+    color: #ffffff;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border: 2px solid rgba(18, 9, 148, 0.493);
+    box-shadow: 0 0 20px #6ca7ff;
+}
+
+#contato {
+    font-family: 'Clay', sans-serif;
+}
+
+footer {
+    background: url('https://i.pinimg.com/originals/9a/6e/96/9a6e96cdea424cab551eafcddb254765.gif') no-repeat;
+    background-size: cover;
+    color: #f7f7f7;
+    -webkit-text-stroke: 0.5px #5b95ec;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 0 20px #2f5da3;
+    margin-top: 20px;
+}

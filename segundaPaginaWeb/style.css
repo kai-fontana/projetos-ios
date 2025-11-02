@@ -1,0 +1,55 @@
+*{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 550px;
+    color:rgba(248, 63, 119, 0.863);
+}
+.logo{
+    width: 30px;
+    margin: 0 0 0 7;
+    float: left;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: justify;
+}
+.text{
+    padding:50px;
+    width:250px;
+    margin-left: 500px;
+    outline: none;
+    border-radius: 12%;
+    border: 2px solid #000000;
+    background-image: url("https://i.pinimg.com/564x/0e/6a/8e/0e6a8e4920df986d605da90efe9f7960.jpg");
+    background-repeat: no-repeat;
+    font-size:16px;
+}
+p{
+
+    display: flexbox;
+    color: rgb(243, 231, 231);
+    text-align: center;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: transparent;
+
+}
+li{
+    padding: 20px 40px;
+    list-style: none;
+    color:rgba(248, 63, 119, 0.863);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h3{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}
+footer{
+    background-image: url("https://i.pinimg.com/736x/1e/78/b9/1e78b9d7901cdce49b601301012e85a1.jpg");
+}

@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('download-_1_\ \(1\).jpg');
+    background-size: cover;
+}
+
+img {
+    width: 180px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    animation: movimento 22s ease;
+}
+
+.img1 {
+    width: 180px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    animation: movimento 17s ease;
+}
+
+.img2 {
+    width: 180px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    animation: movimento 13s ease;
+}
+.img3 {
+    width: 180px;
+    position: absolute;
+    top: 5px;
+    animation: movimento 13s ease;
+}
+@keyframes movimento {
+    from {
+        transform: translate(0,0);
+    }
+
+    to {
+        transform: translate(calc(140px - 180vw), 0px);
+    }
+}
